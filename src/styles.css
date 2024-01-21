@@ -3,7 +3,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #073b4c;
+  background-color: #070f4c;
 }
 
 .birthdayCard {
@@ -46,9 +46,10 @@ body {
   font-family: Tahoma, sans-serif;
   text-align: center;
   margin: 30px;
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-image: linear-gradient(120deg, #9cb4f9 0%, #1f46df 100%);
   transition: 0.1s;
   backface-visibility: visible;
+  color: #101a84;
 }
 
 .balloons {
