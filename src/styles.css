@@ -1,9 +1,10 @@
 body {
   display: flex;
+  padding-left: 50px;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #070f4c;
+  background-color: #0260b2;
 }
 
 .birthdayCard {
@@ -32,7 +33,7 @@ body {
 
 .cardFront {
   position: relative;
-  background-color: #fff;
+  background-color: #7ee1fc;
   width: 250px;
   height: 350px;
   overflow: hidden;
@@ -46,10 +47,11 @@ body {
   font-family: Tahoma, sans-serif;
   text-align: center;
   margin: 30px;
-  background-image: linear-gradient(120deg, #9cb4f9 0%, #1f46df 100%);
+  background-image: linear-gradient(120deg, #22a1aa 0%, #1ee0f6 50%, #22a1aa 100%);
   transition: 0.1s;
   backface-visibility: visible;
-  color: #101a84;
+  color: #081069;
+  border-radius: 5px;
 }
 
 .balloons {
@@ -133,7 +135,7 @@ body {
 
 .cardInside {
   position: absolute;
-  background-color: #fff;
+  background-color: #7ee1fc;
   width: 250px;
   height: 350px;
   z-index: -1;
@@ -143,23 +145,26 @@ body {
 }
 
 p {
-  font-family: "Brush Script MT", cursive;
+  font-family: "Arial";
   margin: 40px;
-  color: #333;
+  color: #082493;
+  font-size: 17px;
 }
 
 .name {
   position: absolute;
-  left: 150px;
-  top: 200px;
-  color: #333;
+  left: 130px;
+  top: 230px;
+  color: #082493;
+  font-size: 15px;
 }
 
 .back {
   font-family: Tahoma, sans-serif;
-  color: #333;
+  color: #07237e;
   text-align: center;
   margin: 30px;
-  outline-color: #333;
+  outline-color: #4275eb;
   outline-style: dotted;
+  border-radius: 20px;
 }
