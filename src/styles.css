@@ -11,7 +11,6 @@ body {
   position: relative;
   width: 250px;
   height: 350px;
-  cursor: pointer;
   transform-style: preserve-3d;
   transform: perspective(2500px);
   transition: 1s;
@@ -33,25 +32,25 @@ body {
 
 .cardFront {
   position: relative;
-  background-color: #7ee1fc;
+  background-color: #6ddcfb;
   width: 250px;
   height: 350px;
   overflow: hidden;
   transform-origin: left;
-  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
-    30px 0 50px rgba(0, 0, 0, 0.4);
+  /* box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
+    30px 0 50px rgba(0, 0, 0, 0.4); */
   transition: 0.6s;
 }
 
 .happy {
   font-family: Tahoma, sans-serif;
   text-align: center;
-  margin: 30px;
-  background-image: linear-gradient(120deg, #22a1aa 0%, #1ee0f6 50%, #22a1aa 100%);
+  margin: 20px;
+  background-image: linear-gradient(140deg, #c5eefd 0%, #77e1fc 50%, #c5eefd 100%);
   transition: 0.1s;
   backface-visibility: visible;
-  color: #081069;
-  border-radius: 5px;
+  color: #22a1aa;
+  border-radius: 15px;
 }
 
 .balloons {
@@ -141,12 +140,13 @@ body {
   z-index: -1;
   left: 0;
   top: 0;
-  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+  /* box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+} */
 }
 
 p {
   font-family: "Arial";
-  margin: 40px;
+  margin: 30px;
   color: #082493;
   font-size: 17px;
 }
@@ -154,9 +154,9 @@ p {
 .name {
   position: absolute;
   left: 130px;
-  top: 230px;
+  top: 240px;
   color: #082493;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .back {
@@ -164,7 +164,13 @@ p {
   color: #07237e;
   text-align: center;
   margin: 30px;
-  outline-color: #4275eb;
+  outline-color: #1b4bbb;
   outline-style: dotted;
-  border-radius: 20px;
+  border-radius: 25px;
+}
+
+.hover {
+  color: rgb(149, 202, 255);
+  padding-top: 45px;
+  text-align: center;
 }
