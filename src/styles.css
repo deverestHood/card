@@ -152,9 +152,6 @@ p {
 }
 
 .name {
-  position: absolute;
-  left: 130px;
-  top: 240px;
   color: #082493;
   font-size: 16px;
 }
@@ -173,4 +170,20 @@ p {
   color: rgb(149, 202, 255);
   padding-top: 45px;
   text-align: center;
+}
+
+.show-other-card {
+  position: absolute;
+  top: 650px;
+  align-items: center;
+  background-color: #071e6b;
+  color: white;
+  border-color: #071e6b;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.dog-name {
+  color: #082493;
+  font-size: 16px;
 }
