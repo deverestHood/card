@@ -68,25 +68,25 @@ body {
 }
 
 .balloonOne {
-  background-color: rgb(239, 71, 111, 0.7);
+  background-color: rgba(251, 139, 249, 0.7);
   left: -10px;
   top: 50px;
 }
 
 .balloonTwo {
-  background-color: rgb(6, 214, 160, 0.7);
+  background-color: rgba(12, 42, 176, 0.7);
   left: 50px;
   top: 20px;
 }
 
 .balloonThree {
-  background-color: rgb(255, 209, 102, 0.7);
+  background-color: rgba(153, 102, 255, 0.7);
   left: 110px;
   top: 50px;
 }
 
 .balloonFour {
-  background-color: rgb(17, 138, 178, 0.7);
+  background-color: rgba(34, 161, 170, 0.7);
   left: 170px;
   top: 20px;
 }
@@ -99,7 +99,7 @@ body {
   position: absolute;
   width: 1px;
   height: 155px;
-  background-color: #ffd166;
+  background-color: #6ea6f4;
   top: 95px;
   left: 43px;
 }
@@ -117,19 +117,19 @@ body {
 }
 
 .balloonOne:after {
-  border-bottom: 10px solid #ef476f;
+  border-bottom: 10px solid rgb(251, 139, 249);
 }
 
 .balloonTwo:after {
-  border-bottom: 10px solid #06d6a0;
+  border-bottom: 10px solid rgba(12, 42, 176);
 }
 
 .balloonThree:after {
-  border-bottom: 10px solid #ffd166;
+  border-bottom: 10px solid rgba(153, 102, 255);
 }
 
 .balloonFour:after {
-  border-bottom: 10px solid #118ab2;
+  border-bottom: 10px solid rgba(34, 161, 170);
 }
 
 .cardInside {
@@ -186,4 +186,83 @@ p {
 .dog-name {
   color: #082493;
   font-size: 16px;
+}
+
+.dog-balloons {
+  position: absolute;
+}
+
+.dog-balloonOne,
+.dog-balloonTwo,
+.dog-balloonThree,
+.dog-balloonFour {
+  position: absolute;
+  width: 85px;
+  height: 95px;
+  border-radius: 50%;
+}
+
+.dog-balloonOne {
+  background-color: rgba(71, 239, 144, 0.7);
+  left: -10px;
+  top: 50px;
+}
+
+.dog-balloonTwo {
+  background-color: rgba(235, 245, 95, 0.7);
+  left: 50px;
+  top: 20px;
+}
+
+.dog-balloonThree {
+  background-color: rgba(102, 189, 255, 0.7);
+  left: 110px;
+  top: 50px;
+}
+
+.dog-balloonFour {
+  background-color: rgba(22, 17, 178, 0.7);
+  left: 170px;
+  top: 20px;
+}
+
+.dog-balloonOne:before,
+.dog-balloonTwo:before,
+.dog-balloonThree:before,
+.dog-balloonFour:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 155px;
+  background-color: #7bb2ff;
+  top: 95px;
+  left: 43px;
+}
+
+.dog-balloonOne:after,
+.dog-balloonTwo:after,
+.dog-balloonThree:after,
+.dog-balloonFour:after {
+  content: "";
+  position: absolute;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  top: 94px;
+  left: 37px;
+}
+
+.dog-balloonOne:after {
+  border-bottom: 10px solid rgb(54, 217, 125);
+}
+
+.dog-balloonTwo:after {
+  border-bottom: 10px solid rgb(237, 248, 89);
+}
+
+.dog-balloonThree:after {
+  border-bottom: 10px solid rgb(76, 175, 251);
+}
+
+.dog-balloonFour:after {
+  border-bottom: 10px solid rgb(22, 17, 178);
 }
