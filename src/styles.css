@@ -174,13 +174,19 @@ p {
 
 .show-other-card {
   position: absolute;
-  top: 650px;
+  display: flex;
+  top: 45rem;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   background-color: #071e6b;
   color: white;
   border-color: #071e6b;
   border-radius: 30px;
   font-size: 20px;
+  max-width: 15rem;
+  width: 15rem;
+  min-height: 4.44rem;
 }
 
 .dog-name {
