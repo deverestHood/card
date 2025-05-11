@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/birthday-card/static/css/main.d043fa08.css",
-    "main.js": "/birthday-card/static/js/main.23498cda.js",
-    "static/js/885.8ca17dea.chunk.js": "/birthday-card/static/js/885.8ca17dea.chunk.js",
-    "static/js/453.dea0c668.chunk.js": "/birthday-card/static/js/453.dea0c668.chunk.js",
-    "static/media/mothers-day.mp3": "/birthday-card/static/media/mothers-day.804d38c3b7b31353e310.mp3",
-    "static/media/hurricanes-fight-song.mp3": "/birthday-card/static/media/hurricanes-fight-song.17f8384b6f3e4be177c8.mp3",
-    "static/media/Happy-Mothers-Day-PNG-Transparent-Image-1354971568.png": "/birthday-card/static/media/Happy-Mothers-Day-PNG-Transparent-Image-1354971568.f1fa62b71a5b23899887.png",
-    "static/media/Miami_Hurricanes_logo.svg.png": "/birthday-card/static/media/Miami_Hurricanes_logo.svg.6097017d424fe6918b4c.png",
-    "index.html": "/birthday-card/index.html",
-    "main.d043fa08.css.map": "/birthday-card/static/css/main.d043fa08.css.map",
-    "main.23498cda.js.map": "/birthday-card/static/js/main.23498cda.js.map",
-    "885.8ca17dea.chunk.js.map": "/birthday-card/static/js/885.8ca17dea.chunk.js.map",
-    "453.dea0c668.chunk.js.map": "/birthday-card/static/js/453.dea0c668.chunk.js.map"
+    "main.css": "/card/static/css/main.d043fa08.css",
+    "main.js": "/card/static/js/main.6dc0ecf3.js",
+    "static/js/885.8ca17dea.chunk.js": "/card/static/js/885.8ca17dea.chunk.js",
+    "static/js/453.dea0c668.chunk.js": "/card/static/js/453.dea0c668.chunk.js",
+    "static/media/mothers-day.mp3": "/card/static/media/mothers-day.804d38c3b7b31353e310.mp3",
+    "static/media/hurricanes-fight-song.mp3": "/card/static/media/hurricanes-fight-song.17f8384b6f3e4be177c8.mp3",
+    "static/media/Happy-Mothers-Day-PNG-Transparent-Image-1354971568.png": "/card/static/media/Happy-Mothers-Day-PNG-Transparent-Image-1354971568.f1fa62b71a5b23899887.png",
+    "static/media/Miami_Hurricanes_logo.svg.png": "/card/static/media/Miami_Hurricanes_logo.svg.6097017d424fe6918b4c.png",
+    "index.html": "/card/index.html",
+    "main.d043fa08.css.map": "/card/static/css/main.d043fa08.css.map",
+    "main.6dc0ecf3.js.map": "/card/static/js/main.6dc0ecf3.js.map",
+    "885.8ca17dea.chunk.js.map": "/card/static/js/885.8ca17dea.chunk.js.map",
+    "453.dea0c668.chunk.js.map": "/card/static/js/453.dea0c668.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d043fa08.css",
-    "static/js/main.23498cda.js"
+    "static/js/main.6dc0ecf3.js"
   ]
 }
