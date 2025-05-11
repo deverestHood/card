@@ -10,7 +10,20 @@ import logo from './Happy-Mothers-Day-PNG-Transparent-Image-1354971568.png';
 const Card = () => {
   const [showMiamiCard, setShowMiamiCard] = useState(false);
   useEffect(() => {
-    document.body.className = styles.mainBody;
+    // Dynamically add the correct body class
+    if (showMiamiCard) {
+      document.body.classList.add(styles.miamiBody);
+      document.body.classList.remove(styles.mainBody);
+    } else {
+      document.body.classList.add(styles.mainBody);
+      document.body.classList.remove(styles.miamiBody);
+    }
+
+    // Cleanup function to remove classes when the component unmounts
+    return () => {
+      document.body.classList.remove(styles.miamiBody);
+      document.body.classList.remove(styles.mainBody);
+    };
   }, [showMiamiCard]);
   const displayComponent = () => {
     setShowMiamiCard(true);
