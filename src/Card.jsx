@@ -18,12 +18,6 @@ const Card = () => {
       document.body.classList.add(styles.mainBody);
       document.body.classList.remove(styles.miamiBody);
     }
-
-    // Cleanup function to remove classes when the component unmounts
-    return () => {
-      document.body.classList.remove(styles.miamiBody);
-      document.body.classList.remove(styles.mainBody);
-    };
   }, [showMiamiCard]);
   const displayComponent = () => {
     setShowMiamiCard(true);
