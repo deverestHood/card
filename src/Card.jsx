@@ -6,18 +6,26 @@ import useSound from 'use-sound';
 import mothersDaySong from './mothers-day.mp3'
 import MiamiCard from './MiamiCard';
 import logo from './Happy-Mothers-Day-PNG-Transparent-Image-1354971568.png';
+import './global.css';
 
 const Card = () => {
   const [showMiamiCard, setShowMiamiCard] = useState(false);
   useEffect(() => {
-    // Dynamically add the correct body class
-    if (showMiamiCard) {
-      document.body.classList.add(styles.miamiBody);
-      document.body.classList.remove(styles.mainBody);
-    } else {
-      document.body.classList.add(styles.mainBody);
+    const updateBodyClass = () => {
+      if (showMiamiCard) {
+        document.body.classList.add(styles.miamiBody);
+        document.body.classList.remove(styles.mainBody);
+      } else {
+        document.body.classList.add(styles.mainBody);
+        document.body.classList.remove(styles.miamiBody);
+      }
+    };
+  
+    updateBodyClass();
+    return () => {
       document.body.classList.remove(styles.miamiBody);
-    }
+      document.body.classList.remove(styles.mainBody);
+    };
   }, [showMiamiCard]);
   const displayComponent = () => {
     setShowMiamiCard(true);

@@ -5,12 +5,13 @@ import Confetti from 'react-confetti';
 import useSound from 'use-sound';
 import miamiFightSong from './hurricanes-fight-song.mp3'
 import logo from './Miami_Hurricanes_logo.svg.png';
+import './global.css';
 
 const MiamiCard = () => {
   useEffect(() => {
-    document.body.className = styles.miamiBody;
+    document.body.classList.add(styles.miamiBody);
     return () => {
-      document.body.className = styles.miamiBody; // Cleanup on unmount
+      document.body.classList.remove(styles.miamiBody); // Cleanup on unmount
     };
   }, []);
   const { width, height } = useWindowSize();

@@ -1,0 +1,20 @@
+.miamiBody {
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to left, rgb(20, 148, 65), rgb(251, 176, 70));
+    margin: 0;
+  }
+
+  .mainBody {
+    display: flex;
+    /* padding-left: 50px; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(245, 163, 219), rgb(147, 45, 185));
+    background-repeat: no-repeat;
+    margin: 0;
+  }
