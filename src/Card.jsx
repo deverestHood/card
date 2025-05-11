@@ -1,61 +1,70 @@
-import "./styles.css";
-import React, { useState } from "react";
+import styles from "./styles.module.css";
+import React, { useEffect, useState } from "react";
 import useWindowSize from 'react-use/lib/useWindowSize';
 import Confetti from 'react-confetti';
 import useSound from 'use-sound';
-import birthdaySong from './birthday-song.mp3'
-import DogCard from './DogCard';
+import mothersDaySong from './mothers-day.mp3'
+import MiamiCard from './MiamiCard';
+import logo from './Happy-Mothers-Day-PNG-Transparent-Image-1354971568.png';
 
 const Card = () => {
+  const [showMiamiCard, setShowMiamiCard] = useState(false);
+  useEffect(() => {
+    document.body.className = styles.mainBody;
+  }, [showMiamiCard]);
   const displayComponent = () => {
-    setShowDogCard(true);
+    setShowMiamiCard(true);
   }
   const hideComponent = () => {
-    setShowDogCard(false);
+    setShowMiamiCard(false);
   }
   const { width, height } = useWindowSize();
-  const [showDogCard, setShowDogCard] = useState(false);
-  const [playSound, { stop }] = useSound(birthdaySong);
+  const colors = ['#f0bce0', '#c357ea', '#FFFFFF'];
+  const [playSound, { stop }] = useSound(mothersDaySong);
     return (
     <div>
-    <Confetti width={width} height={height} numberOfPieces={100} />
-    {showDogCard ? (
+    {showMiamiCard ? (
+      <button className={styles.showothercard} onClick={hideComponent}>Go to Mother's Day card</button>
+    ) : (
+      <button className={styles.showothercard}  onClick={displayComponent}>Click here for another surprise!</button>
+    )
+  }
+    {showMiamiCard ? (
       <div id="component">
-        <DogCard />
+        <MiamiCard />
       </div>
     ) : (
-      <div className="card">
-        <div className="birthdayCard">
-      <div className="cardFront">
-        <h3 className="happy">Happy Birthday Everest! 🎉</h3>
-        <div className="balloons">
-          <div className="balloonOne" />
-          <div className="balloonTwo" />
-          <div className="balloonThree" />
-          <div className="balloonFour" />
+      <div>
+    <Confetti width={width} height={height} numberOfPieces={100} colors={colors}/>
+      <div className={styles.card}>
+        
+        <div className={styles.birthdayCard}>
+      <div className={styles.cardFront}>
+        <h3 className={styles.happy}>Happy Mother's Day! 🌺</h3>
+        <div className={styles.logoContainer}>
+          <img
+            src={logo}
+            alt="Miami Hurricanes Logo"
+            className={styles.logo}
+          />
         </div>
       </div>
       <div onMouseEnter={() => playSound()} onMouseLeave={() => stop()}>
-      <div className="cardInside">
-        <h3 className="back">Happy Birthday Everest! 🎉</h3>
+      <div className={styles.cardInside}>
+        <h3 className={styles.back}>Happy Mother's Day! 🌷</h3>
         <p>
-          Dear Ev,
-          <br></br><br></br>Happy happy birthday!! I hope your day is filled with lots of love and
-          joy and that your birthday wishes come true! 🎂
+          Dear Mom,
+          <br></br><br></br>Happy Mother's Day! Thank you for being my mom, and I hope your day is filled with lots of love and
+          joy!
         </p>
-        <p className="name">With all my love, Parker💖</p>
+        <p className={styles.name}>With all my love, Everest 💌</p>
       </div>
-      <div className="hover">Hover inside card for surprise</div>
+      <div className={styles.hover}>(Hover inside card for sound)</div>
       </div>
     </div>
       </div>
+      </div>
     )}
-    {showDogCard ? (
-      <button className="show-other-card" onClick={hideComponent}>Go to Parker's card</button>
-    ) : (
-      <button className="show-other-card"  onClick={displayComponent}>Click here for another surprise</button>
-    )
-  }
     </div>
 )};
 
