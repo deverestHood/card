@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/card/static/css/main.d043fa08.css",
-    "main.js": "/card/static/js/main.eef00593.js",
+    "main.js": "/card/static/js/main.79ca16dc.js",
     "static/js/885.8ca17dea.chunk.js": "/card/static/js/885.8ca17dea.chunk.js",
     "static/js/453.dea0c668.chunk.js": "/card/static/js/453.dea0c668.chunk.js",
     "static/media/mothers-day.mp3": "/card/static/media/mothers-day.804d38c3b7b31353e310.mp3",
@@ -10,12 +10,12 @@
     "static/media/Miami_Hurricanes_logo.svg.png": "/card/static/media/Miami_Hurricanes_logo.svg.6097017d424fe6918b4c.png",
     "index.html": "/card/index.html",
     "main.d043fa08.css.map": "/card/static/css/main.d043fa08.css.map",
-    "main.eef00593.js.map": "/card/static/js/main.eef00593.js.map",
+    "main.79ca16dc.js.map": "/card/static/js/main.79ca16dc.js.map",
     "885.8ca17dea.chunk.js.map": "/card/static/js/885.8ca17dea.chunk.js.map",
     "453.dea0c668.chunk.js.map": "/card/static/js/453.dea0c668.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d043fa08.css",
-    "static/js/main.eef00593.js"
+    "static/js/main.79ca16dc.js"
   ]
 }
