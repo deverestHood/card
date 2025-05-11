@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/card/static/css/main.d043fa08.css",
-    "main.js": "/card/static/js/main.79ca16dc.js",
+    "main.css": "/card/static/css/main.7e5c7138.css",
+    "main.js": "/card/static/js/main.9d70d65f.js",
     "static/js/885.8ca17dea.chunk.js": "/card/static/js/885.8ca17dea.chunk.js",
     "static/js/453.dea0c668.chunk.js": "/card/static/js/453.dea0c668.chunk.js",
     "static/media/mothers-day.mp3": "/card/static/media/mothers-day.804d38c3b7b31353e310.mp3",
@@ -9,13 +9,13 @@
     "static/media/Happy-Mothers-Day-PNG-Transparent-Image-1354971568.png": "/card/static/media/Happy-Mothers-Day-PNG-Transparent-Image-1354971568.f1fa62b71a5b23899887.png",
     "static/media/Miami_Hurricanes_logo.svg.png": "/card/static/media/Miami_Hurricanes_logo.svg.6097017d424fe6918b4c.png",
     "index.html": "/card/index.html",
-    "main.d043fa08.css.map": "/card/static/css/main.d043fa08.css.map",
-    "main.79ca16dc.js.map": "/card/static/js/main.79ca16dc.js.map",
+    "main.7e5c7138.css.map": "/card/static/css/main.7e5c7138.css.map",
+    "main.9d70d65f.js.map": "/card/static/js/main.9d70d65f.js.map",
     "885.8ca17dea.chunk.js.map": "/card/static/js/885.8ca17dea.chunk.js.map",
     "453.dea0c668.chunk.js.map": "/card/static/js/453.dea0c668.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d043fa08.css",
-    "static/js/main.79ca16dc.js"
+    "static/css/main.7e5c7138.css",
+    "static/js/main.9d70d65f.js"
   ]
 }
